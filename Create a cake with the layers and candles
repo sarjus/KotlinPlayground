@@ -1,9 +1,14 @@
 fun main(){
-    val age =24
+    val age =11
     val layers =5
+    val name="Adi"
+    println(" Happy Birthday, ${name}")
     printCakeTop(age)
     printCakeCandles(age)
     printCakeBottom(age,layers)
+    println("You are already ${age*365} days old!")
+    println("${age*365} days old is the best age to celebrate")
+    
 }
 fun printCakeCandles(age :Int){
     print(" ")
@@ -31,5 +36,5 @@ fun printCakeBottom(age :Int, layers:Int){
         }
         println()
     }
-    
+    println()
 }
